@@ -18,6 +18,7 @@
 
     <!-- Custom styles for this template-->
     <link href="~/Areas/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
 </head>
 
@@ -60,6 +61,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" asp-area="Admin" asp-controller="Banner" asp-action="Index">Banners</a>
+                        <a class="collapse-item" asp-area="Admin" asp-controller="Blog" asp-action="Index">Blog</a>
+
                     </div>
                 </div>
             </li>
@@ -344,6 +347,7 @@
     <!-- Bootstrap core JavaScript-->
     <script src="~/Areas/vendor/jquery/jquery.min.js"></script>
     <script src="~/Areas/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="~/Areas/vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -357,7 +361,7 @@
     <!-- Page level custom scripts -->
     <script src="~/Areas/js/demo/chart-area-demo.js"></script>
     <script src="~/Areas/js/demo/chart-pie-demo.js"></script>
-
+    <script src="~/js/script.js"></script>
 </body>
 
 </html>

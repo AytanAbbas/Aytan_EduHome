@@ -24,6 +24,9 @@ namespace EduHome.Areas.Admin.Controllers
 
             return View(model);
         }
+
+
+
         public IActionResult Create()
         {
 
@@ -66,6 +69,9 @@ namespace EduHome.Areas.Admin.Controllers
 
             return View(model);
         }
+
+
+
 
         public IActionResult Delete(int? id)
         {

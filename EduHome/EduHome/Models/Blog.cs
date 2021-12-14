@@ -16,6 +16,9 @@ namespace EduHome.Models
         public string Title { get; set; }
         [MaxLength(30)]
         public string Author { get; set; }
+        public string Image { get; set; }
+        [NotMapped]
+        public IFormFile ImageFile { get; set; }
         public DateTime CreatedDate { get; set; }
         [Column(TypeName ="ntext")]
         public string Content { get; set; }
@@ -28,7 +31,8 @@ namespace EduHome.Models
 
         public List<Comment> Comments { get; set; }
         public List<TagToBlog> TagToBlogs { get; set; }
-
+        [NotMapped]
+        public List<int> TagToBlogsId { get; set; }
 
     }
 }

@@ -166,3 +166,5 @@ C:\Users\HP\Desktop\Edu\EduHome\EduHome\obj\Debug\net5.0\Razor\Areas\Admin\Views
 C:\Users\HP\Desktop\Edu\EduHome\EduHome\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\HP\Desktop\Edu\EduHome\EduHome\obj\Debug\net5.0\Razor\Areas\Admin\Views\Banner\Create.cshtml.g.cs
 C:\Users\HP\Desktop\Edu\EduHome\EduHome\obj\Debug\net5.0\Razor\Areas\Admin\Views\Banner\Update.cshtml.g.cs
+C:\Users\HP\Desktop\Edu\EduHome\EduHome\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
+C:\Users\HP\Desktop\Edu\EduHome\EduHome\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
